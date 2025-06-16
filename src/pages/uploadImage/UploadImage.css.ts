@@ -51,6 +51,11 @@ export const section = style({
 export const sectionTitle = style({
   fontWeight: 'bold',
   fontSize: 17,
+  background: 'none',
+  border: 'none',
+  padding: 0,
+  cursor: 'pointer',
+  marginBottom: 10,
 });
 
 export const ul = style({
@@ -61,4 +66,14 @@ export const ul = style({
 
 export const li = style({
   marginBottom: 6,
+});
+
+export const file_input = style({
+  position: 'absolute',
+  left: 0,
+  top: 0,
+  width: '100%',
+  height: '100%',
+  opacity: 0,
+  cursor: 'pointer',
 });
