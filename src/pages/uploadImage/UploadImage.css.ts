@@ -1,5 +1,12 @@
 import { style } from '@vanilla-extract/css';
 
+export const container = style({
+  display: 'flex',
+  gap: 24,
+  alignItems: 'flex-start',
+  marginTop: 24,
+});
+
 export const image_container = style({
   width: (500 * 9) / 16,
   height: 500,
@@ -34,9 +41,12 @@ export const file_input = style({
   cursor: 'pointer',
 });
 
-export const text_input = style({
-  width: 400,
-  padding: 14,
-  boxSizing: 'border-box',
+export const metadata = style({
+  fontSize: 14,
+  lineHeight: '1.6',
+  backgroundColor: '#f9f9f9',
+  padding: 16,
   borderRadius: 8,
+  minWidth: 240,
+  boxShadow: '0 0 6px rgba(0, 0, 0, 0.05)',
 });
