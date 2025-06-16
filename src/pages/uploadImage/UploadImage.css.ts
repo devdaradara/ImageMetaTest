@@ -32,21 +32,33 @@ export const button_container = style({
   justifyContent: 'center',
 });
 
-export const file_input = style({
-  position: 'absolute',
-  left: 0,
+export const metadata = style({
+  backgroundColor: '#f9f9f9',
+  padding: 24,
+  borderRadius: 12,
+  maxWidth: 480,
   width: '100%',
-  height: '100%',
-  opacity: 0,
-  cursor: 'pointer',
+  boxShadow: '0 2px 12px rgba(0, 0, 0, 0.06)',
+  fontSize: 15,
+  lineHeight: 1.7,
+  overflowWrap: 'anywhere',
 });
 
-export const metadata = style({
-  fontSize: 14,
-  lineHeight: '1.6',
-  backgroundColor: '#f9f9f9',
-  padding: 16,
-  borderRadius: 8,
-  minWidth: 240,
-  boxShadow: '0 0 6px rgba(0, 0, 0, 0.05)',
+export const section = style({
+  marginBottom: 24,
+});
+
+export const sectionTitle = style({
+  fontWeight: 'bold',
+  fontSize: 17,
+});
+
+export const ul = style({
+  listStyle: 'disc',
+  paddingLeft: 20,
+  margin: 0,
+});
+
+export const li = style({
+  marginBottom: 6,
 });
