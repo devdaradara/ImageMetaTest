@@ -1,8 +1,8 @@
 import { style } from '@vanilla-extract/css';
 
 export const image_container = style({
-  width: 400,
-  height: (400 * 9) / 16,
+  width: (500 * 9) / 16,
+  height: 500,
   overflow: 'hidden',
   position: 'relative',
   borderRadius: 8,
